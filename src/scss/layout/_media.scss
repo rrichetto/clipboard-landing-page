@@ -23,8 +23,146 @@
   }
 }
 
-@media (max-width: 454px) {
+@media (max-width: 870px) {
+  .footer {
+    &__list {
+      grid-gap: 2rem 2rem;
+    }
+  }
+}
+
+@media (max-width: 870px) {
+  .footer {
+    padding: 4rem 2rem;
+
+    &__content {
+      flex-direction: column;
+    }
+
+    &__logo-box {
+      margin-bottom: 3rem;
+    }
+
+    &__links {
+      margin-bottom: 3rem;
+      width: 85%;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    &__list-item {
+      padding: 1rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .feature-one {
+    &__content {
+      display: block;
+      margin: 5rem 0 2rem 0;
+    }
+
+    &__image-box {
+      left: 0;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    &__image {
+      width: 100%;
+    }
+
+    &__items {
+      max-width: 40rem;
+      padding: 5rem 2rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    &__item {
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 635px) {
+  .feature-three {
+    &__boxes {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    &__box {
+      width: 75%;
+      padding: 3rem 2rem;
+    }
+  }
+
+  .footer {
+    &__list {
+      flex-direction: column;
+    }
+  }
+}
+
+
+@media (max-width: 465px) {
   .primary-heading {
     font-size: 3.3rem;
+  }
+
+  .header {
+    &__buttons {
+      flex-direction: column;
+    }
+  }
+
+  .btn {
+    &--teal {
+      margin-right: 0;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .feature-one,
+  .feature-two,
+  .feature-three {
+    padding: 1.5rem 0;
+  }
+
+  .clients-section {
+    padding: 2rem 0;
+
+    &__clients {
+      flex-direction: column;
+    }
+  }
+
+  .download-section {
+    padding: 3rem 2rem 6rem 2rem;
+
+    &__buttons {
+      flex-direction: column;
+    }
+  }
+
+  .footer {
+
+    &__logo-box {
+      text-align: center;
+    }
+
+    &__logo {
+      width: 70%;
+    }
   }
 }

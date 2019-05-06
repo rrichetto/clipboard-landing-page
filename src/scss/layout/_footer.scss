@@ -1,29 +1,22 @@
 .footer {
-  padding: 4rem 0;
+  padding: 4rem;
   background: #eee;
 
   &__content {
     display: flex;
     align-items: center;
-  }
-
-  &__logo {
-    width: 50%;
+    justify-content: space-between;
   }
 
   &__list {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem 4rem;
   }
 
   &__list-item {
     display: inline-block;
-    padding: 1rem 0;
-  }
-
-  &__links {
-    max-width: 65rem;
   }
 
   &__link {
@@ -36,7 +29,6 @@
   }
 
   &__social {
-    margin-left: 25rem;
     width: 15rem;
     display: flex;
     justify-content: space-between;
