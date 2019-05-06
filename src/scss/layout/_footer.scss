@@ -1,0 +1,49 @@
+.footer {
+  padding: 4rem 0;
+  background: #eee;
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 50%;
+  }
+
+  &__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__list-item {
+    display: inline-block;
+    padding: 1rem 0;
+  }
+
+  &__links {
+    max-width: 65rem;
+  }
+
+  &__link {
+    color: $dark-grey;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &__social {
+    margin-left: 25rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__social-icon:hover {
+    cursor: pointer;
+    filter: invert(0.28) sepia(1) saturate(4) hue-rotate(125deg) brightness(0.9);
+  }
+}

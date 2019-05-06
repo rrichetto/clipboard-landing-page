@@ -1,0 +1,30 @@
+@media (max-width: 1070px) {
+  .feature-one {
+
+    &__image-box {
+      left: -4rem;
+    }
+
+    &__image {
+      width: 95%;
+    }
+
+    &__items {
+      padding: 2rem 1rem;
+      margin-left: 0rem;
+    }
+
+    &__item {
+
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 454px) {
+  .primary-heading {
+    font-size: 3.3rem;
+  }
+}

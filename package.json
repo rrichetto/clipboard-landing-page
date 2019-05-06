@@ -1,0 +1,22 @@
+{
+  "name": "clipboard-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/scss/main.scss dist/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrichetto/clipboard-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrichetto/clipboard-landing-page/issues"
+  },
+  "homepage": "https://github.com/rrichetto/clipboard-landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

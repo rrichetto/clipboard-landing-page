@@ -1,0 +1,211 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-size: 1.8rem;
+  font-family: "Bai Jamjuree", sans-serif; }
+
+.primary-heading {
+  font-size: 4rem;
+  margin: 2rem 0;
+  color: #4c545d;
+  text-align: center; }
+
+.secondary-heading {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  color: #4c545d;
+  text-align: center; }
+
+.tertiary-heading {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #4c545d; }
+
+.paragraph-sm {
+  font-size: 1.6rem;
+  margin: 0.2rem 0;
+  line-height: 1.4;
+  color: #9fabb2; }
+
+.paragraph-md {
+  font-size: 1.8rem;
+  margin: .4rem 0;
+  line-height: 1.4;
+  color: #9fabb2; }
+
+.paragraph-lg {
+  font-size: 2rem;
+  margin: .4rem 0;
+  line-height: 1.4;
+  color: #9fabb2; }
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto; }
+
+.text-center {
+  text-align: center; }
+
+my-sm {
+  margin: 2rem 0; }
+
+my-md {
+  margin: 4rem 0; }
+
+my-lg {
+  margin: 6rem 0; }
+
+py-sm {
+  padding: 2rem 0; }
+
+py-md {
+  padding: 4rem 0; }
+
+py-lg {
+  padding: 6rem 0; }
+
+.btn:link, .btn:visited {
+  color: #fff;
+  padding: 1.2rem 3rem;
+  border-radius: 4rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: inline-block;
+  transition: all .2s; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--teal {
+  background-color: #26baa4;
+  margin-right: 2rem; }
+
+.btn--blue {
+  background-color: #6173ff; }
+
+.feature-heading {
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 2rem; }
+
+.footer {
+  padding: 4rem 0;
+  background: #eee; }
+  .footer__content {
+    display: flex;
+    align-items: center; }
+  .footer__logo {
+    width: 50%; }
+  .footer__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+  .footer__list-item {
+    display: inline-block;
+    padding: 1rem 0; }
+  .footer__links {
+    max-width: 65rem; }
+  .footer__link {
+    color: #4c545d;
+    text-decoration: none; }
+    .footer__link:hover {
+      color: #26baa4; }
+  .footer__social {
+    margin-left: 25rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between; }
+  .footer__social-icon:hover {
+    cursor: pointer;
+    filter: invert(0.28) sepia(1) saturate(4) hue-rotate(125deg) brightness(0.9); }
+
+.header {
+  padding: 10rem 0;
+  background: url("../images/bg-header-desktop.png") no-repeat;
+  background-position: top; }
+  .header__content {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2rem; }
+  .header__buttons {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center; }
+
+.feature-one,
+.feature-two,
+.feature-three {
+  padding: 4rem 0; }
+
+.feature-one__content {
+  display: flex;
+  margin: 6rem 0; }
+
+.feature-one__image-box {
+  position: relative;
+  left: -4rem; }
+
+.feature-one__items {
+  max-width: 40rem;
+  padding: 5rem;
+  margin-left: 3rem; }
+
+.feature-one__item:not(:last-child) {
+  margin-bottom: 7rem; }
+
+.feature-two {
+  text-align: center; }
+  .feature-two__image-box {
+    margin-top: 7rem; }
+
+.feature-three__boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+  text-align: center; }
+
+.feature-three__box {
+  width: 33%;
+  padding: 3rem 2rem; }
+
+.clients-section {
+  padding: 6rem 0; }
+  .clients-section__clients {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5rem; }
+
+.download-section {
+  padding: 6rem 0 12rem 0; }
+
+@media (max-width: 1070px) {
+  .feature-one__image-box {
+    left: -4rem; }
+  .feature-one__image {
+    width: 95%; }
+  .feature-one__items {
+    padding: 2rem 1rem;
+    margin-left: 0rem; }
+  .feature-one__item:not(:last-child) {
+    margin-bottom: 3rem; } }
+
+@media (max-width: 454px) {
+  .primary-heading {
+    font-size: 3.3rem; } }
